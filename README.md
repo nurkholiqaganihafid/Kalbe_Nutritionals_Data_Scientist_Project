@@ -40,7 +40,7 @@ My Tableau Profile: [My Tableau](https://public.tableau.com/app/profile/nurkholi
 df_forecast = df.groupby('date')[['qty']].sum()
 ```
 <p align="center">
-  <img alt="Forecasting Data" title="Forecasting Data" src="https://github.com/nurkholiqaganihafid/Kalbe_Nutritionals_Data_Scientist_Project/assets/89395541/b01dba0a-8ac3-49dd-b097-a56ea1c345a3" width="200">
+  <img alt="Forecasting Data" title="Forecasting Data" src="https://github.com/nurkholiqaganihafid/Kalbe_Nutritionals_Data_Scientist_Project/assets/89395541/b01dba0a-8ac3-49dd-b097-a56ea1c345a3" width="150">
 </p>
 
 - Total Data from the Merge Results
@@ -99,10 +99,9 @@ df_cluster = df.groupby(['customer_id']).agg({ 'transaction_id': 'count',
 
 - Elbow Method
 <p align="center">
-  <img alt="belum ada" title="" src="https://github.com/nurkholiqaganihafid/Kalbe_Nutritionals_Data_Scientist_Project/assets/89395541/cc14b3dc-cfab-4aeb-9680-844bf87192ce" width="750">
+  <img alt="Elbow Method" title="Elbow Method" src="https://github.com/nurkholiqaganihafid/Kalbe_Nutritionals_Data_Scientist_Project/assets/89395541/cc14b3dc-cfab-4aeb-9680-844bf87192ce" width="750">
 </p>
-  - In the plot above, the best cluster is 3
-
+<p align="center">In the plot above, the best cluster is 3</p>
 
 - Customer Clustering based on Quantity and Total Amount
 <p align="center">
